@@ -1,0 +1,147 @@
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: highway;
+    src: url('font/highway/highway.eot') format('embedded-opentype'),
+         url('font/highway/highway.woff') format('woff'),
+         url('font/highway/highway.ttf') format('truetype'),
+         url('font/highway/highway.svg#LearningCurveProRegular') format('svg');
+}
+html, body{
+	width:100%;
+	height:100%;
+}
+body{
+	margin:0;
+	padding:0;
+}
+div{
+	display:block;
+}
+header{
+	width:100%;
+	border-top:4px solid; 
+	border-color:#62A2D0;
+	height: 70px;
+	float:left;
+	text-transform:uppercase;
+	position:absolute;
+}
+header .content{
+	height:70px;
+	padding-top:20px;
+}
+#clogo{
+	width:204px;
+	height:28px;
+	float:left;
+	margin-left:15px;
+}
+#clogo img{
+	width:100%;
+	height:100%;
+}
+#conX{
+	float:right;
+	margin-right:15px;
+	font-family: highway,Helvetica,Arial,sans-serif;
+	font-size:1.1em;
+}
+a{
+	font-weight:normal;
+	color:#A6A6A6;
+	text-decoration:none;
+	cursor:pointer;
+}
+#container{
+	background-image: url('img/background.jpg');
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	float:left;   
+}
+#bloctext{;
+	line-height: 1.1;
+	color: #FFF;
+	position:relative;
+	margin-top:100px;
+	padding-top:1em;
+	padding-left:15px; 
+	padding-right:15px;   
+}
+#bloctext h1{
+	font-family: "Calibri",Helvetica,Arial,sans-serif;
+	text-align:center; 
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-weight:bold;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom: 13.5px;    
+}
+#bloctext p{
+	font-size:1.55em;
+	margin-bottom:10px;
+	text-align:center;
+	line-height: 1.52;
+	font-family: highway,Helvetica,Arial,sans-serif;
+	color: #f4f5f7;
+	
+}
+#blocbtn{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+#formulaire{
+	display: inline-block;
+	vertical-align: middle;
+}
+#formulaire .capture{
+	width: 270px;
+	text-align:center;
+	font-size: 14.94px;
+	height: 40px;
+	border:none;
+}
+#btn {
+	background-color: #f8da4a;
+	border:none;
+	color: black;
+	font-size: 20px;
+	height: 42px;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	width: auto;
+	left: -3px;
+	cursor:pointer;
+}
+footer{
+	width:100%;
+	height:80px;
+	position:relative;
+	float:left;   
+}
+footer .content{
+	text-align:center;
+	padding:40px 0px;
+	font-size:14px; 
+	color:#A6A6A6;
+}
+@media (min-width: 992px) {
+	.content{
+		width:970px;
+		margin:auto;
+	}
+}
+@media (max-width: 768px) {
+	.content{
+		width:750px;
+		max-width: 970px;
+		margin:auto;
+	}
+}
